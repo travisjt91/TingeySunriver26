@@ -5,7 +5,7 @@ A premium, mobile-first GitHub Pages vacation site for Sunriver, Oregon — Augu
 ## What is included
 - A redesigned Apple/Airbnb-style trip guide with the daily itinerary moved near the top.
 - Wednesday 3 PM check-in and Tuesday 10 AM checkout flow.
-- Adventure crew section for Grandma, Grandpa, Travis, Amy, Tyson, Kenna, Curtis, Cami, Paige, Brayden, Wyatt, Logan, and Josh.
+- Adventure crew section for Grandma, Grandpa, Travis, Amy, Tyson, Kenna, Hallie, Curtis, Cami, Paige, Brayden, Wyatt, Logan, and Josh.
 - Host family assignments integrated into each daily itinerary card.
 - Meal responsibility listed as **TBD by host family** so each family can choose what they want to provide.
 - Simplified nightly prayer agenda and prayer rotation, including Dad for Tuesday.
