@@ -47,3 +47,7 @@ The site uses the High Desert Ward page for current Sunday information. Re-check
 - Updated disc golf to feel like a whole-family option, not a Dabbs-only activity.
 - Changed Saturday whitewater rafting to TBD and linked to the river details section.
 - Removed coffee and brewing company references; updated food links/options to better fit the family.
+
+
+## v6 Updates
+- Fixed mobile day-card readability by separating itinerary text from photos and adding a high-contrast content panel.
