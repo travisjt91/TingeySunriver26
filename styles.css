@@ -56,8 +56,16 @@ a{color:inherit}
 }
 .day-content p,
 .day-content li,
-.day-content .links a{
+.day-content .tagline{
+  color:var(--ink) !important;
+  text-shadow:none !important;
+}
+
+.day-content .links a,
+.day-content .links a:visited{
+  background:#10231f !important;
   color:#fff !important;
+  text-shadow:none !important;
 }
 .day-content .tagline{
   color:var(--ink) !important;
