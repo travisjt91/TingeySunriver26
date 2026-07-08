@@ -56,7 +56,9 @@ a{color:inherit}
 }
 .day-content p,
 .day-content li,
-.day-content a,
+.day-content .links a{
+  color:#fff !important;
+}
 .day-content .tagline{
   color:var(--ink) !important;
   text-shadow:none !important;
