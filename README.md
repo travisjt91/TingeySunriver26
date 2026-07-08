@@ -10,8 +10,8 @@ A premium, mobile-first GitHub Pages vacation site for Sunriver, Oregon — Augu
 - Meal responsibility listed as **TBD by host family** so each family can choose what they want to provide.
 - Simplified nightly prayer agenda and prayer rotation, including Dad for Tuesday.
 - Sunday church day with the High Desert Ward meetinghouse in Bend, Oregon.
-- River decision section: Deschutes float as the main family option, Sun Country Tours as the lead rafting option, and Ouzel Outfitters as the alternate.
-- Friday afternoon disc golf slot for the Dabbs.
+- River decision section: Deschutes float as the main family option, with whitewater rafting choice still TBD between Sun Country Tours and Ouzel Outfitters.
+- Friday afternoon disc golf window for anyone in the family who wants to play.
 - Live links for weather, air quality, smoke, roads, stargazing, SHARC, maps, and activity pages.
 - Packing checklist saved locally on each device with a completion meter.
 
@@ -40,3 +40,10 @@ The site uses the High Desert Ward page for current Sunday information. Re-check
 - Removed the old separate “Latest Updates” and host meal table by integrating those details into the itinerary.
 - Updated all assigned meals to “TBD by host family.”
 - Fixed the river decision section so it lives inside the HTML document before the footer.
+
+## v5 Updates
+- Made the opening rhythm section smaller, tighter, and more punchy.
+- Moved Live Conditions directly below the opening rhythm section so it is easy to use during the trip.
+- Updated disc golf to feel like a whole-family option, not a Dabbs-only activity.
+- Changed Saturday whitewater rafting to TBD and linked to the river details section.
+- Removed coffee and brewing company references; updated food links/options to better fit the family.
