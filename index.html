@@ -7,6 +7,14 @@
   <meta name="description" content="A mobile-first family trip guide for Sunriver, Oregon — August 5–10, 2026." />
   <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="styles.css" />
+
+<style>
+.crew-grid,.option-grid,.updates-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1.25rem}
+.crew-card,.option-card,.update-card,.day-card{border:1px solid rgba(255,255,255,.18);border-radius:22px;padding:1.1rem;background:rgba(255,255,255,.08);backdrop-filter:blur(10px)}
+.recommended{box-shadow:0 0 0 2px rgba(255,255,255,.18) inset}
+.table-wrap{overflow-x:auto;margin-top:1rem}.schedule-table{width:100%;border-collapse:collapse;border-radius:18px;overflow:hidden}.schedule-table th,.schedule-table td{padding:.85rem;border-bottom:1px solid rgba(255,255,255,.16);text-align:left}.schedule-table th{background:rgba(255,255,255,.12)}
+</style>
+
 </head>
 <body>
   <header class="hero" id="top">
@@ -47,17 +55,51 @@
       </div>
     </section>
 
-    <section class="section crew-section reveal" id="crew">
-      <p class="eyebrow">The adventure crew</p>
-      <h2>Family reunion in the pines</h2>
-      <p>This site is built for the whole group: shared plans, flexible energy, and enough room for everyone to participate in the way that feels right.</p>
-      <div class="crew-grid">
-        <article><span>🌲</span><h3>Grandparents</h3><p>Grandma · Grandpa</p></article>
-        <article><span>🏡</span><h3>Travis & Amy</h3><p>Travis · Amy · Tyson · Kenna</p></article>
-        <article><span>🚲</span><h3>Curtis & Cami</h3><p>Curtis · Cami · Paige · Brayden · Wyatt · Logan</p></article>
-        <article><span>⭐</span><h3>Special guest</h3><p>Josh</p><small>Included in the trip, with no devotional or prayer assignments unless he wants to join in.</small></article>
-      </div>
-    </section>
+    
+<section id="crew" class="section">
+  <div class="section-kicker">The Crew</div>
+  <h2>Family in the Pines</h2>
+  <p class="section-lede">A Sunriver week with Grandma, Grandpa, three households, cousins, bikes, rivers, prayers, meals, and a lot of Oregon pine trees.</p>
+  <div class="crew-grid">
+    <article class="crew-card"><h3>Grandma & Grandpa</h3><p>Grandma • Grandpa</p></article>
+    <article class="crew-card"><h3>Travis & Amy</h3><p>Travis • Amy • Tyson • Kenna</p></article>
+    <article class="crew-card"><h3>Curtis & Cami</h3><p>Curtis • Cami • Paige • Brayden • Wyatt • Logan</p></article>
+    <article class="crew-card"><h3>Josh</h3><p>Josh</p></article>
+  </div>
+</section>
+
+
+<section id="host-rotation" class="section">
+  <div class="section-kicker">Family Rhythm</div>
+  <h2>Host Family of the Day</h2>
+  <p class="section-lede">The family assigned to the morning devotional is also responsible for one meal that day. Evening prayer/reflection is short, optional, and welcoming for anyone who wants to participate.</p>
+  <div class="table-wrap">
+    <table class="schedule-table">
+      <thead><tr><th>Day</th><th>Host Family / Devotional</th><th>Meal</th><th>Nightly Prayer</th></tr></thead>
+      <tbody>
+        <tr><td>Wednesday</td><td>Travis & Amy</td><td>Dinner</td><td>Family reflection + prayer</td></tr>
+        <tr><td>Thursday</td><td>Curtis & Cami</td><td>Breakfast</td><td>Family reflection + prayer</td></tr>
+        <tr><td>Friday</td><td>Josh</td><td>Lunch</td><td>Family reflection + prayer</td></tr>
+        <tr><td>Saturday</td><td>Grandma & Grandpa</td><td>Dinner</td><td>Family reflection + prayer</td></tr>
+        <tr><td>Sunday</td><td>Travis & Amy</td><td>Sunday Dinner</td><td>Family reflection + prayer</td></tr>
+        <tr><td>Monday</td><td>Curtis & Cami</td><td>Lunch or Dinner</td><td>Family reflection + prayer</td></tr>
+        <tr><td>Tuesday Checkout</td><td>Grandma & Grandpa</td><td>Breakfast</td><td>Final gratitude circle</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+<section id="latest-updates" class="section">
+  <div class="section-kicker">Latest Plan Updates</div>
+  <h2>Confirmed Planning Notes</h2>
+  <div class="updates-grid">
+    <article class="update-card"><h3>Tuesday Checkout</h3><p>Checkout is now Tuesday around 10:00 AM. Grandma & Grandpa host breakfast that morning.</p></article>
+    <article class="update-card"><h3>Disc Golf</h3><p>The Dabbs want disc golf. Best slot: Friday afternoon, roughly 2:00–5:00 PM, while others can bike, swim, shop, nap, or relax.</p></article>
+    <article class="update-card"><h3>Whitewater / Float Choice</h3><p>Lead with Sun Country Tours for rafting, keep Ouzel Outfitters as the alternate, and make the relaxed Deschutes float the main all-family river option.</p></article>
+  </div>
+</section>
+
 
     <section class="section worship-section reveal" id="worship">
       <div class="worship-header">
@@ -302,7 +344,20 @@
               <a href="https://local.churchofjesuschrist.org/en/units/us/or/high-desert-ward" target="_blank" rel="noreferrer">High Desert Ward Sunday service</a>
       </div>
     </section>
-  </main>
+  
+<section id="day-tuesday" class="section day-section">
+  <div class="section-kicker">Tuesday</div>
+  <h2>Checkout Morning: One Last Breakfast</h2>
+  <div class="day-card">
+    <p><strong>7:30 AM</strong> — Breakfast hosted by Grandma & Grandpa.</p>
+    <p><strong>8:00 AM</strong> — Final devotional, gratitude circle, and trip highlights.</p>
+    <p><strong>8:30 AM</strong> — Pack, clean up, load cars, and do the final cabin sweep.</p>
+    <p><strong>9:45 AM</strong> — Final family photo.</p>
+    <p><strong>10:00 AM</strong> — Checkout.</p>
+  </div>
+</section>
+
+</main>
 
   <footer>
     <p>Built for the Sunriver family adventure crew · Sunriver, Oregon · August 5–10, 2026</p>
@@ -312,3 +367,14 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+<section id="river-choice" class="section highlight-section">
+  <div class="section-kicker">River Day Decision</div>
+  <h2>Float the River vs. Whitewater Rafting</h2>
+  <p class="section-lede">For the whole group, the relaxed river float is the easiest all-family memory. For the Dabbs/adventure crew, Sun Country Tours is the lead whitewater option, with Ouzel Outfitters as the alternate.</p>
+  <div class="option-grid">
+    <article class="option-card recommended"><h3>Recommended Main Group Plan: Float the Deschutes</h3><p><strong>Best for:</strong> relaxing, kids, grandparents, photos, and everyone moving at their own pace.</p><p><strong>Suggested slot:</strong> Monday late morning / early afternoon, after the group is settled and before the final checkout morning.</p><p><strong>Why it fits:</strong> lower cost, flexible timing, low stress, and very Sunriver.</p></article>
+    <article class="option-card"><h3>Lead Whitewater Option: Sun Country Tours — Big Eddy Thriller</h3><p><strong>Best for:</strong> a short, memorable adrenaline adventure without losing the whole day.</p><p><strong>Suggested slot:</strong> Saturday morning. Leave Sunriver around 8:15 AM, check in around 9:00 AM, raft mid-morning, then keep the afternoon flexible.</p><p><strong>Why it fits:</strong> close to Sunriver/Bend, family-friendly Class I–III excitement, and a manageable time commitment.</p></article>
+    <article class="option-card"><h3>Alternate Whitewater Option: Ouzel Outfitters</h3><p><strong>Best for:</strong> a group that wants a bigger outfitter-style rafting adventure or a longer river day.</p><p><strong>Tradeoff:</strong> likely more planning and commitment than the quick Big Eddy option.</p></article>
+  </div>
+</section>

@@ -25,3 +25,12 @@ A mobile-first GitHub Pages vacation site for Sunriver, Oregon — August 5–10
 
 ## Sunday church note
 The site uses the High Desert Ward page for current Sunday information. Re-check the week of the trip in case meeting times change.
+
+
+## v3 Updates
+- Josh is now his own household, not a special guest.
+- Checkout moved to Tuesday at approximately 10:00 AM.
+- Grandma & Grandpa host checkout-day breakfast.
+- Added Host Family of the Day: devotional assignment also owns one meal that day.
+- Added disc golf slot for the Dabbs on Friday afternoon.
+- Added river decision section: float as main family option, Sun Country Tours as lead rafting option, Ouzel Outfitters as alternate.
