@@ -4,278 +4,237 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Tingey Family Sunriver Escape</title>
-  <meta name="description" content="A mobile-first family trip guide for Sunriver, Oregon — August 5–10, 2026." />
-  <link rel="preconnect" href="https://images.unsplash.com">
+  <meta name="description" content="A premium mobile-first family trip guide for Sunriver, Oregon — August 5–11, 2026." />
+  <link rel="preconnect" href="https://images.unsplash.com" />
   <link rel="stylesheet" href="styles.css" />
-
-<style>
-.crew-grid,.option-grid,.updates-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1.25rem}
-.crew-card,.option-card,.update-card,.day-card{border:1px solid rgba(255,255,255,.18);border-radius:22px;padding:1.1rem;background:rgba(255,255,255,.08);backdrop-filter:blur(10px)}
-.recommended{box-shadow:0 0 0 2px rgba(255,255,255,.18) inset}
-.table-wrap{overflow-x:auto;margin-top:1rem}.schedule-table{width:100%;border-collapse:collapse;border-radius:18px;overflow:hidden}.schedule-table th,.schedule-table td{padding:.85rem;border-bottom:1px solid rgba(255,255,255,.16);text-align:left}.schedule-table th{background:rgba(255,255,255,.12)}
-</style>
-
 </head>
 <body>
   <header class="hero" id="top">
-    <nav class="nav">
+    <nav class="nav" aria-label="Primary navigation">
       <a href="#top" class="brand">Sunriver 2026</a>
+      <a href="#plan">Days</a>
+      <a href="#river-choice">River</a>
       <a href="#crew">Crew</a>
-      <a href="#worship">Worship</a>
-      <a href="#plan">Plan</a>
-      <a href="#map">Map</a>
+      <a href="#reflection">Prayer</a>
       <a href="#packing">Pack</a>
     </nav>
+
     <div class="hero-overlay"></div>
     <section class="hero-content reveal">
-      <p class="eyebrow">The Sunriver Family Adventure</p>
+      <p class="eyebrow">The Tingey Family Adventure</p>
       <h1>Sunriver Among the Pines</h1>
-      <p class="subtitle">August 5–10, 2026 · Grandma, Grandpa, cousins, bikes, river floats, pool days, stargazing, Sunday worship, and a little Oregon magic.</p>
+      <p class="subtitle">August 5–11, 2026 · cruiser bikes, river floats, SHARC, cousins, stars, Sunday worship, and one last breakfast before checkout.</p>
       <div class="hero-actions">
-        <a class="button primary" href="#plan">Open the itinerary</a>
+        <a class="button primary" href="#plan">Start the trip</a>
         <a class="button ghost" href="https://www.google.com/maps/search/Sunriver,+Oregon" target="_blank" rel="noreferrer">Open Sunriver map</a>
       </div>
     </section>
+
     <aside class="countdown-card reveal" aria-label="Vacation countdown">
-      <span>Countdown</span>
+      <span>Countdown to check-in</span>
       <strong id="countdown">Loading…</strong>
-      <small>Check-in target: 3:00 PM · Checkout target: 10:00 AM</small>
+      <small>Wednesday · 3:00 PM arrival target</small>
     </aside>
   </header>
 
   <main>
-    <section class="intro section reveal">
-      <p class="eyebrow">The vibe</p>
-      <h2>Not Bend. Sunriver.</h2>
-      <p>This trip is built around the Sunriver rhythm: slow mornings, cruiser bikes, SHARC swimming, Deschutes River water days, ice cream runs, big-sky evenings, and a few short drives for the unforgettable stuff.</p>
-      <div class="quick-grid">
-        <article><span>🌲</span><strong>Home base</strong><p>Sunriver Village, bike paths, pines, deer, and easy family logistics.</p></article>
-        <article><span>🚲</span><strong>Adventure style</strong><p>Low-stress outings with optional add-ons when everyone still has energy.</p></article>
-        <article><span>⭐</span><strong>Night magic</strong><p>Sunriver’s observatory and dark-sky feel make one stargazing night a must.</p></article>
+    <section class="section trip-glance reveal" id="glance">
+      <div class="glance-copy">
+        <p class="eyebrow">The rhythm</p>
+        <h2>Simple days. Big memories.</h2>
+        <p>Everything starts with the daily adventure. Host families lead the day, then choose the meal they want to provide.</p>
+      </div>
+      <div class="stat-grid">
+        <article><span>7</span><p>Days in Sunriver</p></article>
+        <article><span>4</span><p>Households together</p></article>
+        <article><span>3 PM</span><p>Wednesday check-in</p></article>
+        <article><span>10 AM</span><p>Tuesday checkout</p></article>
       </div>
     </section>
 
-    
-<section id="crew" class="section">
-  <div class="section-kicker">The Crew</div>
-  <h2>Family in the Pines</h2>
-  <p class="section-lede">A Sunriver week with Grandma, Grandpa, three households, cousins, bikes, rivers, prayers, meals, and a lot of Oregon pine trees.</p>
-  <div class="crew-grid">
-    <article class="crew-card"><h3>Grandma & Grandpa</h3><p>Grandma • Grandpa</p></article>
-    <article class="crew-card"><h3>Travis & Amy</h3><p>Travis • Amy • Tyson • Kenna</p></article>
-    <article class="crew-card"><h3>Curtis & Cami</h3><p>Curtis • Cami • Paige • Brayden • Wyatt • Logan</p></article>
-    <article class="crew-card"><h3>Josh</h3><p>Josh</p></article>
-  </div>
-</section>
-
-
-<section id="host-rotation" class="section">
-  <div class="section-kicker">Family Rhythm</div>
-  <h2>Host Family of the Day</h2>
-  <p class="section-lede">The family assigned to the morning devotional is also responsible for one meal that day. Evening prayer/reflection is short, optional, and welcoming for anyone who wants to participate.</p>
-  <div class="table-wrap">
-    <table class="schedule-table">
-      <thead><tr><th>Day</th><th>Host Family / Devotional</th><th>Meal</th><th>Nightly Prayer</th></tr></thead>
-      <tbody>
-        <tr><td>Wednesday</td><td>Travis & Amy</td><td>Dinner</td><td>Family reflection + prayer</td></tr>
-        <tr><td>Thursday</td><td>Curtis & Cami</td><td>Breakfast</td><td>Family reflection + prayer</td></tr>
-        <tr><td>Friday</td><td>Josh</td><td>Lunch</td><td>Family reflection + prayer</td></tr>
-        <tr><td>Saturday</td><td>Grandma & Grandpa</td><td>Dinner</td><td>Family reflection + prayer</td></tr>
-        <tr><td>Sunday</td><td>Travis & Amy</td><td>Sunday Dinner</td><td>Family reflection + prayer</td></tr>
-        <tr><td>Monday</td><td>Curtis & Cami</td><td>Lunch or Dinner</td><td>Family reflection + prayer</td></tr>
-        <tr><td>Tuesday Checkout</td><td>Grandma & Grandpa</td><td>Breakfast</td><td>Final gratitude circle</td></tr>
-      </tbody>
-    </table>
-  </div>
-</section>
-
-
-<section id="latest-updates" class="section">
-  <div class="section-kicker">Latest Plan Updates</div>
-  <h2>Confirmed Planning Notes</h2>
-  <div class="updates-grid">
-    <article class="update-card"><h3>Tuesday Checkout</h3><p>Checkout is now Tuesday around 10:00 AM. Grandma & Grandpa host breakfast that morning.</p></article>
-    <article class="update-card"><h3>Disc Golf</h3><p>The Dabbs want disc golf. Best slot: Friday afternoon, roughly 2:00–5:00 PM, while others can bike, swim, shop, nap, or relax.</p></article>
-    <article class="update-card"><h3>Whitewater / Float Choice</h3><p>Lead with Sun Country Tours for rafting, keep Ouzel Outfitters as the alternate, and make the relaxed Deschutes float the main all-family river option.</p></article>
-  </div>
-</section>
-
-
-    <section class="section worship-section reveal" id="worship">
-      <div class="worship-header">
-        <p class="eyebrow">Family worship</p>
-        <h2>Small spiritual anchors</h2>
-        <p>Each day has a brief optional morning devotional and a nightly family prayer/reflection. Josh is part of the adventure crew, but not assigned religious responsibilities.</p>
-      </div>
-      <div class="worship-grid">
-        <article class="worship-card">
-          <h3>Morning Prayer & Devotional Assignment</h3>
-          <p class="tagline">10–15 minutes before the first adventure.</p>
-          <ul>
-            <li><strong>Wednesday:</strong> Travis — arrival prayer + family mission thought</li>
-            <li><strong>Thursday:</strong> Amy — gratitude scripture + pool day safety prayer</li>
-            <li><strong>Friday:</strong> Grandpa — river day prayer + “God’s creations” thought</li>
-            <li><strong>Saturday:</strong> Grandma — family memories + museum/observatory thought</li>
-            <li><strong>Sunday:</strong> Travis — Sabbath devotional before church</li>
-            <li><strong>Monday:</strong> Curtis — travel-home prayer + favorite memory</li>
-          </ul>
+    <section class="section" id="plan">
+      <p class="eyebrow reveal">Daily adventure</p>
+      <h2 class="reveal">The week, day by day</h2>
+      <div class="timeline">
+        <article class="day-card reveal">
+          <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=85" alt="Sunlit pine forest" />
+          <div class="day-content">
+            <span class="date">Wednesday · August 5</span>
+            <h3>Arrival Among the Pines</h3>
+            <p class="tagline">Get there, unload, breathe, and let the week begin.</p>
+            <div class="host-pill"><strong>Host:</strong> Travis & Amy · <strong>Meal:</strong> TBD by host family</div>
+            <ul>
+              <li><strong>Before 3 PM:</strong> Travel, grocery stop, lunch on the road, and a quick Village preview if you arrive early.</li>
+              <li><strong>3 PM:</strong> Check in, unpack, claim beds, set up bikes, swimsuits, and snacks.</li>
+              <li><strong>Evening:</strong> First family dinner, Goody’s ice cream, and an easy sunset bike loop.</li>
+            </ul>
+            <div class="micro"><span>Kid score: 4/5</span><span>Stress: low</span><span>Cost: $$</span></div>
+            <div class="links"><a href="https://www.google.com/maps/search/The+Village+at+Sunriver" target="_blank" rel="noreferrer">Village directions</a><a href="https://www.villageatsunriver.com/dine/" target="_blank" rel="noreferrer">Dinner ideas</a></div>
+          </div>
         </article>
-        <article class="worship-card">
-          <h3>Nightly Prayer</h3>
-          <p class="tagline">A calm 5-minute reset before bed.</p>
+
+        <article class="day-card reveal">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=85" alt="Family water day" />
+          <div class="day-content">
+            <span class="date">Thursday · August 6</span>
+            <h3>Bike Path Freedom + SHARC</h3>
+            <p class="tagline">The classic Sunriver day: bikes, pool time, naps, and porch air.</p>
+            <div class="host-pill"><strong>Host:</strong> Curtis & Cami · <strong>Meal:</strong> TBD by host family</div>
+            <ul>
+              <li><strong>Morning:</strong> Easy cruiser ride on the paved Sunriver pathways.</li>
+              <li><strong>Afternoon:</strong> SHARC swim block. Bring goggles, towels, snacks, and sweatshirts for later.</li>
+              <li><strong>Evening:</strong> Village dinner, deer spotting, and a slow night at the cabin.</li>
+            </ul>
+            <div class="micro"><span>Kid score: 5/5</span><span>Stress: medium-low</span><span>Cost: $$</span></div>
+            <div class="links"><a href="https://www.sunriverstyle.com/pedalthepathways" target="_blank" rel="noreferrer">Bike path info</a><a href="https://www.sunriversharc.com/" target="_blank" rel="noreferrer">SHARC</a></div>
+          </div>
+        </article>
+
+        <article class="day-card reveal feature-day">
+          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=85" alt="River through pine forest" />
+          <div class="day-content">
+            <span class="date">Friday · August 7</span>
+            <h3>River Float + Disc Golf Split</h3>
+            <p class="tagline">The relaxed Deschutes day, with disc golf for the Dabbs in the afternoon.</p>
+            <div class="host-pill"><strong>Host:</strong> Josh · <strong>Meal:</strong> TBD by host family</div>
+            <ul>
+              <li><strong>Morning:</strong> Slow breakfast, sunscreen, water shoes, and dry bags.</li>
+              <li><strong>Midday:</strong> Float, kayak, canoe, or paddleboard from Sunriver Marina or guest-access launch options.</li>
+              <li><strong>2–5 PM:</strong> Dabbs disc golf slot. Others can bike, swim, shop, nap, paddleboard, or relax.</li>
+              <li><strong>Evening:</strong> Sunriver Art Fair in the Village, dinner, treats, and golden-hour walking.</li>
+            </ul>
+            <div class="micro"><span>Kid score: 5/5</span><span>Stress: medium</span><span>Cost: $$$</span></div>
+            <div class="links"><a href="https://www.sunriverresort.com/play/marina" target="_blank" rel="noreferrer">Sunriver Marina</a><a href="https://www.villageatsunriver.com/events/2026-sunriver-art-fair/2026-08-07/" target="_blank" rel="noreferrer">Art Fair</a></div>
+          </div>
+        </article>
+
+        <article class="day-card reveal">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=85" alt="Forest road through pine trees" />
+          <div class="day-content">
+            <span class="date">Saturday · August 8</span>
+            <h3>Optional Whitewater + Observatory Night</h3>
+            <p class="tagline">Adventure in the morning, stars after dark.</p>
+            <div class="host-pill"><strong>Host:</strong> Grandma & Grandpa · <strong>Meal:</strong> TBD by host family</div>
+            <ul>
+              <li><strong>Morning:</strong> Optional Sun Country Tours Big Eddy Thriller for the adventure crew.</li>
+              <li><strong>Afternoon:</strong> Rest, SHARC splash, museum option, or short bike ride.</li>
+              <li><strong>Night:</strong> Sunriver Nature Center & Observatory. Book ahead if a program is open.</li>
+            </ul>
+            <div class="micro"><span>Kid score: 4/5</span><span>Stress: medium</span><span>Cost: $$$</span></div>
+            <div class="links"><a href="https://suncountrytours.com/rafting/big-eddy-thriller/" target="_blank" rel="noreferrer">Sun Country Tours</a><a href="https://www.snco.org/explore-the-observatory" target="_blank" rel="noreferrer">Observatory</a></div>
+          </div>
+        </article>
+
+        <article class="day-card reveal sunday-day">
+          <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1400&q=85" alt="Peaceful morning sunrise" />
+          <div class="day-content">
+            <span class="date">Sunday · August 9</span>
+            <h3>Church Day + Peaceful Sunriver Sunday</h3>
+            <p class="tagline">Worship, rest, family photos, and simple beauty.</p>
+            <div class="host-pill"><strong>Host:</strong> Travis & Amy · <strong>Meal:</strong> TBD by host family</div>
+            <ul>
+              <li><strong>8:00 AM:</strong> Breakfast and Sunday devotional at the house.</li>
+              <li><strong>9:20 AM:</strong> Leave for the meetinghouse in Bend.</li>
+              <li><strong>10:00 AM:</strong> Sacrament meeting at 60800 Tekampe Road.</li>
+              <li><strong>Afternoon:</strong> Lunch, naps, board games, family walk, or easy bike ride.</li>
+              <li><strong>Evening:</strong> Simple dinner, family photos, gratitude circle, and partial packing.</li>
+            </ul>
+            <div class="micro"><span>Kid score: 3/5</span><span>Stress: low</span><span>Cost: $</span></div>
+            <div class="links"><a href="https://local.churchofjesuschrist.org/en/units/us/or/high-desert-ward" target="_blank" rel="noreferrer">High Desert Ward</a><a href="https://www.google.com/maps/search/60800+Tekampe+Road+Bend+OR+97702" target="_blank" rel="noreferrer">Church directions</a></div>
+          </div>
+        </article>
+
+        <article class="day-card reveal">
+          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=85" alt="Mountain landscape" />
+          <div class="day-content">
+            <span class="date">Monday · August 10</span>
+            <h3>One More Sunriver Day</h3>
+            <p class="tagline">Keep it flexible: favorite repeats, Benham Falls, Village treats, or one last pool session.</p>
+            <div class="host-pill"><strong>Host:</strong> Curtis & Cami · <strong>Meal:</strong> TBD by host family</div>
+            <ul>
+              <li><strong>Morning:</strong> Benham Falls, bike paths, or a slow cabin breakfast.</li>
+              <li><strong>Afternoon:</strong> SHARC, Village shopping, paddleboards, or downtime.</li>
+              <li><strong>Evening:</strong> Final big family night, memory sharing, packing, and dessert.</li>
+            </ul>
+            <div class="micro"><span>Kid score: 4/5</span><span>Stress: low</span><span>Cost: $$</span></div>
+            <div class="links"><a href="https://www.google.com/maps/search/Benham+Falls+Sunriver" target="_blank" rel="noreferrer">Benham Falls</a><a href="https://www.google.com/maps/search/The+Village+at+Sunriver" target="_blank" rel="noreferrer">Village</a></div>
+          </div>
+        </article>
+
+        <article class="day-card reveal checkout">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=85" alt="Morning forest cabin road" />
+          <div class="day-content">
+            <span class="date">Tuesday · August 11</span>
+            <h3>Checkout Morning: One Last Breakfast</h3>
+            <p class="tagline">Protect the morning. Nobody wants a frantic checkout.</p>
+            <div class="host-pill"><strong>Host:</strong> Grandma & Grandpa · <strong>Meal:</strong> TBD by host family</div>
+            <ul>
+              <li><strong>7:30 AM:</strong> Breakfast hosted by Grandma & Grandpa.</li>
+              <li><strong>8:00 AM:</strong> Final devotional, gratitude circle, and trip highlights.</li>
+              <li><strong>8:30 AM:</strong> Pack, clean up, load cars, and final cabin sweep.</li>
+              <li><strong>9:45 AM:</strong> Final family photo.</li>
+              <li><strong>10:00 AM:</strong> Checkout.</li>
+            </ul>
+            <div class="micro"><span>Kid score: 2/5</span><span>Stress: medium</span><span>Cost: $</span></div>
+            <div class="links"><a href="https://www.google.com/maps/search/coffee+Sunriver+Oregon" target="_blank" rel="noreferrer">Coffee nearby</a><a href="https://www.google.com/maps/search/Goody's+Sunriver" target="_blank" rel="noreferrer">Goody’s</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="river-choice" class="section highlight-section reveal">
+      <p class="eyebrow">River day decision</p>
+      <h2>Float first. Raft for the adventure crew.</h2>
+      <p class="section-lede">The relaxed Deschutes float is the main all-family memory. Sun Country Tours leads the whitewater option, with Ouzel Outfitters as the alternate.</p>
+      <div class="option-grid">
+        <article class="option-card recommended">
+          <span class="badge">Main group plan</span>
+          <h3>Float the Deschutes</h3>
+          <p><strong>Best for:</strong> kids, grandparents, photos, relaxed pacing, and everyone staying together.</p>
+          <p><strong>Why it fits:</strong> lower cost, flexible timing, low stress, and very Sunriver.</p>
+        </article>
+        <article class="option-card">
+          <span class="badge">Lead rafting option</span>
+          <h3>Sun Country Tours · Big Eddy Thriller</h3>
+          <p><strong>Best for:</strong> a short, memorable adrenaline adventure without losing the whole day.</p>
+          <p><strong>Suggested slot:</strong> Saturday morning. Keep the afternoon flexible.</p>
+        </article>
+        <article class="option-card">
+          <span class="badge">Alternate</span>
+          <h3>Ouzel Outfitters</h3>
+          <p><strong>Best for:</strong> a more outfitter-style rafting adventure or longer river day.</p>
+          <p><strong>Tradeoff:</strong> more planning and commitment than the quick Big Eddy option.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="crew" class="section crew-section reveal">
+      <p class="eyebrow">The crew</p>
+      <h2>Family in the Pines</h2>
+      <div class="crew-grid">
+        <article><span>🌲</span><h3>Grandma & Grandpa</h3><p>Grandma · Grandpa</p></article>
+        <article><span>🚲</span><h3>Travis & Amy</h3><p>Travis · Amy · Tyson · Kenna</p></article>
+        <article><span>🏔️</span><h3>Curtis & Cami</h3><p>Curtis · Cami · Paige · Brayden · Wyatt · Logan</p></article>
+        <article><span>🛶</span><h3>Josh</h3><p>Josh</p></article>
+      </div>
+    </section>
+
+    <section class="section reflection-section reveal" id="reflection">
+      <p class="eyebrow">Evening reflection</p>
+      <h2>Nightly Prayer Agenda</h2>
+      <div class="reflection-grid">
+        <article class="reflection-card">
           <ul>
             <li>Share the best moment of the day.</li>
             <li>Share one thing each person is grateful for.</li>
             <li>Ask: “Where did we see God’s hand today?”</li>
             <li>End with family prayer.</li>
           </ul>
+        </article>
+        <article class="reflection-card rotation-card">
+          <h3>Prayer Rotation</h3>
           <div class="assignment-strip">
-            <span>Wed: Tyson</span><span>Thu: Paige</span><span>Fri: Brayden</span><span>Sat: Kenna</span><span>Sun: Wyatt</span><span>Mon: Logan</span>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section sunday-section reveal" id="sunday">
-      <p class="eyebrow">Sunday church day</p>
-      <h2>Worship, rest, and simple family time</h2>
-      <div class="sunday-grid">
-        <article class="church-card">
-          <h3>Nearest LDS meetinghouse</h3>
-          <p><strong>The Church of Jesus Christ of Latter-day Saints — High Desert Ward</strong></p>
-          <p>60800 Tekampe Road, Bend, OR 97702</p>
-          <p><strong>Sunday service:</strong> 10:00 AM · 2-hour block</p>
-          <p class="note">Re-check the week of the trip in case local meeting times change.</p>
-          <div class="links"><a href="https://local.churchofjesuschrist.org/en/units/us/or/high-desert-ward" target="_blank" rel="noreferrer">Ward page</a><a href="https://www.google.com/maps/search/60800+Tekampe+Road+Bend+OR+97702" target="_blank" rel="noreferrer">Directions</a></div>
-        </article>
-        <article class="church-card soft">
-          <h3>Sunday-appropriate ideas</h3>
-          <ul>
-            <li>Peaceful family bike ride on the Sunriver pathways.</li>
-            <li>Quiet walk near the Deschutes River.</li>
-            <li>Family scripture study or devotional on the deck.</li>
-            <li>Board games, naps, family photos, and a simple dinner.</li>
-            <li>Evening gratitude circle and stargazing from the house.</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section class="section dashboard reveal" id="today">
-      <div>
-        <p class="eyebrow">Live-ish dashboard</p>
-        <h2>Check before you head out</h2>
-        <p>Use these buttons the morning of each adventure. August in Central Oregon can be perfect, smoky, windy, or chilly after dark.</p>
-      </div>
-      <div class="dashboard-grid">
-        <a target="_blank" rel="noreferrer" href="https://forecast.weather.gov/MapClick.php?lat=43.884&lon=-121.438">☀️ Sunriver weather</a>
-        <a target="_blank" rel="noreferrer" href="https://www.airnow.gov/?city=Sunriver&state=OR&country=USA">💨 Air quality</a>
-        <a target="_blank" rel="noreferrer" href="https://fire.airnow.gov/">🔥 Smoke map</a>
-        <a target="_blank" rel="noreferrer" href="https://www.cleardarksky.com/c/SnrvORkey.html">🌌 Stargazing forecast</a>
-        <a target="_blank" rel="noreferrer" href="https://tripcheck.com/">🚗 Oregon road conditions</a>
-        <a target="_blank" rel="noreferrer" href="https://www.sunriversharc.com/plan-your-visit/today-s-operations">💦 SHARC operations</a>
-      </div>
-    </section>
-
-    <section class="section" id="plan">
-      <p class="eyebrow reveal">The itinerary</p>
-      <h2 class="reveal">Six days, built around family energy</h2>
-      <div class="timeline">
-        <article class="day-card reveal">
-          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" alt="Pine forest cabin road" />
-          <div class="day-content">
-            <span class="date">Wednesday · August 5</span>
-            <h3>Arrival Among the Pines</h3>
-            <p class="tagline">Get there, unload, breathe, and make the first night feel easy.</p>
-            <ul>
-              <li><strong>Before 3 PM:</strong> Travel, grocery stop, lunch on the road, quick Village preview if you arrive early.</li>
-              <li><strong>3 PM:</strong> Check in, unpack, claim beds, set up bikes, snacks, swimsuits, and kid chaos control.</li>
-              <li><strong>Evening:</strong> Sunriver Village dinner + Goody’s ice cream + slow family bike loop near the house.</li>
-            </ul>
-            <div class="micro"><span>Kid score: 4/5</span><span>Parent stress: low</span><span>Cost: $$</span></div>
-            <div class="links"><a href="https://www.google.com/maps/search/The+Village+at+Sunriver" target="_blank" rel="noreferrer">Village directions</a><a href="https://www.villageatsunriver.com/dine/" target="_blank" rel="noreferrer">Dinner ideas</a></div>
-          </div>
-        </article>
-
-        <article class="day-card reveal">
-          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" alt="Family water day" />
-          <div class="day-content">
-            <span class="date">Thursday · August 6</span>
-            <h3>Pool Day + Bike Path Freedom</h3>
-            <p class="tagline">A classic Sunriver day: bikes, SHARC, naps, and a low-pressure evening.</p>
-            <ul>
-              <li><strong>Morning:</strong> Easy cruiser ride on the paved Sunriver pathways. Pick a 30–60 minute loop.</li>
-              <li><strong>Afternoon:</strong> SHARC swim block. Bring goggles, towels, snacks, and a backup sweatshirt.</li>
-              <li><strong>Evening:</strong> Sunriver Brewing or Village dinner, then deer spotting and porch time.</li>
-            </ul>
-            <div class="micro"><span>Kid score: 5/5</span><span>Parent stress: medium-low</span><span>Cost: $$</span></div>
-            <div class="links"><a href="https://www.sunriverstyle.com/pedalthepathways" target="_blank" rel="noreferrer">Bike path info</a><a href="https://www.sunriversharc.com/" target="_blank" rel="noreferrer">SHARC</a></div>
-          </div>
-        </article>
-
-        <article class="day-card reveal feature-day">
-          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80" alt="River through pine forest" />
-          <div class="day-content">
-            <span class="date">Friday · August 7</span>
-            <h3>Deschutes River Float + Art Fair Night</h3>
-            <p class="tagline">The river day that feels like a vacation commercial.</p>
-            <ul>
-              <li><strong>Morning:</strong> Slow breakfast, sunscreen, water shoes, and a dry bag.</li>
-              <li><strong>Midday:</strong> Float, kayak, canoe, or paddleboard from Sunriver Marina or a guest-access launch option.</li>
-              <li><strong>Evening:</strong> Sunriver Art Fair in the Village, dinner, treats, and a golden-hour walk.</li>
-            </ul>
-            <div class="micro"><span>Kid score: 5/5</span><span>Parent stress: medium</span><span>Cost: $$$</span></div>
-            <div class="links"><a href="https://www.sunriverresort.com/play/marina" target="_blank" rel="noreferrer">Sunriver Marina</a><a href="https://www.villageatsunriver.com/events/2026-sunriver-art-fair/2026-08-07/" target="_blank" rel="noreferrer">Art Fair</a></div>
-          </div>
-        </article>
-
-        <article class="day-card reveal">
-          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80" alt="Oregon landscape" />
-          <div class="day-content">
-            <span class="date">Saturday · August 8</span>
-            <h3>High Desert Museum + Observatory Night</h3>
-            <p class="tagline">Animals, history, lava-land learning, then stars.</p>
-            <ul>
-              <li><strong>Morning:</strong> High Desert Museum. Best for kids when everyone still has energy.</li>
-              <li><strong>Afternoon:</strong> Rest, SHARC splash, or short bike ride. Do not over-schedule before stargazing.</li>
-              <li><strong>Night:</strong> Sunriver Nature Center & Observatory. Book ahead if a night program is open.</li>
-            </ul>
-            <div class="micro"><span>Kid score: 4/5</span><span>Parent stress: medium</span><span>Cost: $$$</span></div>
-            <div class="links"><a href="https://highdesertmuseum.org/daily-schedule/" target="_blank" rel="noreferrer">Museum hours</a><a href="https://www.snco.org/explore-the-observatory" target="_blank" rel="noreferrer">Observatory</a></div>
-          </div>
-        </article>
-
-        <article class="day-card reveal sunday-day">
-          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80" alt="Peaceful Oregon pine forest" />
-          <div class="day-content">
-            <span class="date">Sunday · August 9</span>
-            <h3>Church Day + Peaceful Sunriver Sunday</h3>
-            <p class="tagline">A slower Sabbath: church, rest, family time, and simple beauty.</p>
-            <ul>
-              <li><strong>8:00 AM:</strong> Breakfast + Sunday devotional at the house.</li>
-              <li><strong>9:20 AM:</strong> Leave for the High Desert Ward meetinghouse in Bend.</li>
-              <li><strong>10:00 AM:</strong> Sacrament meeting + second hour at 60800 Tekampe Road.</li>
-              <li><strong>Afternoon:</strong> Quiet lunch, naps, board games, family walk, or easy Sunriver bike ride.</li>
-              <li><strong>Evening:</strong> Simple dinner, family photos, gratitude circle, nightly prayer, and partial packing.</li>
-            </ul>
-            <div class="micro"><span>Kid score: 3/5</span><span>Parent stress: low</span><span>Cost: $</span></div>
-            <div class="links"><a href="https://local.churchofjesuschrist.org/en/units/us/or/high-desert-ward" target="_blank" rel="noreferrer">High Desert Ward</a><a href="https://www.google.com/maps/search/60800+Tekampe+Road+Bend+OR+97702" target="_blank" rel="noreferrer">Church directions</a></div>
-          </div>
-        </article>
-
-        <article class="day-card reveal checkout">
-          <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=80" alt="Morning forest" />
-          <div class="day-content">
-            <span class="date">Monday · August 10</span>
-            <h3>Checkout + One Last Treat</h3>
-            <p class="tagline">Protect the morning. Nobody wants a frantic checkout.</p>
-            <ul>
-              <li><strong>7:30 AM:</strong> Simple breakfast, trash sweep, laundry check, kid treasure hunt for missing shoes.</li>
-              <li><strong>10 AM:</strong> Checkout target.</li>
-              <li><strong>After checkout:</strong> One last Village treat or quick stop before the drive home.</li>
-            </ul>
-            <div class="micro"><span>Kid score: 2/5</span><span>Parent stress: medium</span><span>Cost: $</span></div>
-            <div class="links"><a href="https://www.google.com/maps/search/coffee+Sunriver+Oregon" target="_blank" rel="noreferrer">Coffee nearby</a><a href="https://www.google.com/maps/search/Goody's+Sunriver" target="_blank" rel="noreferrer">Goody’s</a></div>
+            <span>Wed · Tyson</span><span>Thu · Paige</span><span>Fri · Brayden</span><span>Sat · Kenna</span><span>Sun · Wyatt</span><span>Mon · Logan</span><span>Tue · Dad</span>
           </div>
         </article>
       </div>
@@ -285,12 +244,12 @@
       <div class="map-copy">
         <p class="eyebrow">Family map</p>
         <h2>Everything orbiting Sunriver</h2>
-        <p>Use this as the command center. The trip is intentionally designed so the best parts are close to home base, with just a few strategic drives.</p>
+        <p>The best parts stay close to home base, with a few strategic drives for church, rafting, museums, waterfalls, and stars.</p>
         <div class="map-buttons">
           <a href="https://www.google.com/maps/search/Sunriver+SHARC" target="_blank" rel="noreferrer">SHARC</a>
           <a href="https://www.google.com/maps/search/Sunriver+Marina" target="_blank" rel="noreferrer">Marina</a>
+          <a href="https://www.google.com/maps/search/Disc+Golf+Sunriver+Oregon" target="_blank" rel="noreferrer">Disc golf</a>
           <a href="https://www.google.com/maps/search/High+Desert+Museum" target="_blank" rel="noreferrer">Museum</a>
-          <a href="https://www.google.com/maps/search/Lava+River+Cave" target="_blank" rel="noreferrer">Lava Cave</a>
           <a href="https://www.google.com/maps/search/Sunriver+Nature+Center+Observatory" target="_blank" rel="noreferrer">Observatory</a>
           <a href="https://www.google.com/maps/search/The+Village+at+Sunriver" target="_blank" rel="noreferrer">Village</a>
         </div>
@@ -298,21 +257,24 @@
       <iframe title="Sunriver Oregon map" loading="lazy" src="https://www.google.com/maps?q=Sunriver%2C%20Oregon&output=embed"></iframe>
     </section>
 
-    <section class="section cards-section reveal">
-      <p class="eyebrow">Family scorecards</p>
-      <h2>Who this trip is secretly for</h2>
-      <div class="persona-grid">
-        <article><h3>Tyson’s Adventure Meter</h3><p>Best bets: SHARC, river float, bike racing, cave exploring, deer spotting, and throwing rocks where allowed.</p><strong>Top pick: SHARC + bikes</strong></article>
-        <article><h3>Kenna’s Picks</h3><p>Village treats, little shops, art fair colors, swimming, family photos, and anything that feels like a discovery.</p><strong>Top pick: Goody’s + Art Fair</strong></article>
-        <article><h3>Mom’s Relaxation Index</h3><p>Best when the day has one anchor activity, easy food, shade, and no frantic transitions.</p><strong>Top pick: River day</strong></article>
-        <article><h3>Dad’s Hidden Gems</h3><p>The perfect mix: practical logistics, a map, a backup plan, and one adventure that makes the trip feel legendary.</p><strong>Top pick: Observatory night</strong></article>
-        <article><h3>Cousin Chaos Score</h3><p>Best when the group can split naturally: swimmers, bikers, snackers, nap crew, and “one more adventure” crew.</p><strong>Top pick: River + SHARC</strong></article>
+    <section class="section food-section reveal" id="food">
+      <p class="eyebrow">Food guide</p>
+      <h2>Easy wins near the Village</h2>
+      <div class="food-grid">
+        <article><h3>Sunriver Brewing</h3><p>Casual family dinner, burgers, kids menu energy, and close to the Village.</p></article>
+        <article><h3>Goody’s</h3><p>The required ice cream and treat stop. Best used as a reward after bikes, river, or photos.</p></article>
+        <article><h3>Blondie’s Pizza</h3><p>Easy group food when nobody wants a complicated meal plan.</p></article>
       </div>
     </section>
 
     <section class="section packing reveal" id="packing">
-      <p class="eyebrow">Packing checklist</p>
-      <h2>Pack for hot afternoons and chilly nights</h2>
+      <div class="packing-header">
+        <div>
+          <p class="eyebrow">Packing checklist</p>
+          <h2>Hot afternoons. Chilly nights.</h2>
+        </div>
+        <div class="packing-meter" aria-live="polite"><strong id="pack-percent">0%</strong><span id="pack-count">0 of 0 packed</span></div>
+      </div>
       <div class="check-grid">
         <label><input type="checkbox"> Swimsuits + goggles</label>
         <label><input type="checkbox"> Towels + wet bag</label>
@@ -331,50 +293,43 @@
       </div>
     </section>
 
+    <section class="section dashboard reveal" id="today">
+      <div>
+        <p class="eyebrow">Live conditions</p>
+        <h2>Check before heading out</h2>
+        <p>August in Central Oregon can be perfect, smoky, windy, or chilly after dark.</p>
+      </div>
+      <div class="dashboard-grid">
+        <a target="_blank" rel="noreferrer" href="https://forecast.weather.gov/MapClick.php?lat=43.884&lon=-121.438">☀️ Sunriver weather</a>
+        <a target="_blank" rel="noreferrer" href="https://www.airnow.gov/?city=Sunriver&state=OR&country=USA">💨 Air quality</a>
+        <a target="_blank" rel="noreferrer" href="https://fire.airnow.gov/">🔥 Smoke map</a>
+        <a target="_blank" rel="noreferrer" href="https://www.cleardarksky.com/c/SnrvORkey.html">🌌 Stargazing forecast</a>
+        <a target="_blank" rel="noreferrer" href="https://tripcheck.com/">🚗 Oregon road conditions</a>
+        <a target="_blank" rel="noreferrer" href="https://www.sunriversharc.com/plan-your-visit/today-s-operations">💦 SHARC operations</a>
+      </div>
+    </section>
+
     <section class="section sources reveal">
-      <p class="eyebrow">Verified planning links</p>
-      <h2>Official pages to re-check before you go</h2>
+      <p class="eyebrow">Planning links</p>
+      <h2>Re-check before the trip</h2>
       <div class="source-list">
         <a href="https://www.sunriversharc.com/plan-your-visit/today-s-operations" target="_blank" rel="noreferrer">SHARC current operations</a>
         <a href="https://www.sunriverstyle.com/pedalthepathways" target="_blank" rel="noreferrer">Sunriver paved pathways</a>
         <a href="https://www.snco.org/" target="_blank" rel="noreferrer">Sunriver Nature Center & Observatory</a>
         <a href="https://highdesertmuseum.org/daily-schedule/" target="_blank" rel="noreferrer">High Desert Museum daily schedule</a>
-        <a href="https://www.recreation.gov/timed-entry/10089508" target="_blank" rel="noreferrer">Lava River Cave reservations</a>
+        <a href="https://suncountrytours.com/rafting/big-eddy-thriller/" target="_blank" rel="noreferrer">Sun Country Tours Big Eddy Thriller</a>
+        <a href="https://www.oregonrafting.com/" target="_blank" rel="noreferrer">Ouzel Outfitters</a>
         <a href="https://www.villageatsunriver.com/events/2026-sunriver-art-fair/2026-08-07/" target="_blank" rel="noreferrer">Sunriver Art Fair</a>
-              <a href="https://local.churchofjesuschrist.org/en/units/us/or/high-desert-ward" target="_blank" rel="noreferrer">High Desert Ward Sunday service</a>
+        <a href="https://local.churchofjesuschrist.org/en/units/us/or/high-desert-ward" target="_blank" rel="noreferrer">High Desert Ward Sunday service</a>
       </div>
     </section>
-  
-<section id="day-tuesday" class="section day-section">
-  <div class="section-kicker">Tuesday</div>
-  <h2>Checkout Morning: One Last Breakfast</h2>
-  <div class="day-card">
-    <p><strong>7:30 AM</strong> — Breakfast hosted by Grandma & Grandpa.</p>
-    <p><strong>8:00 AM</strong> — Final devotional, gratitude circle, and trip highlights.</p>
-    <p><strong>8:30 AM</strong> — Pack, clean up, load cars, and do the final cabin sweep.</p>
-    <p><strong>9:45 AM</strong> — Final family photo.</p>
-    <p><strong>10:00 AM</strong> — Checkout.</p>
-  </div>
-</section>
-
-</main>
+  </main>
 
   <footer>
-    <p>Built for the Sunriver family adventure crew · Sunriver, Oregon · August 5–10, 2026</p>
+    <p>Built for the Sunriver family adventure crew · Sunriver, Oregon · August 5–11, 2026</p>
     <a href="#top">Back to top ↑</a>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
-
-<section id="river-choice" class="section highlight-section">
-  <div class="section-kicker">River Day Decision</div>
-  <h2>Float the River vs. Whitewater Rafting</h2>
-  <p class="section-lede">For the whole group, the relaxed river float is the easiest all-family memory. For the Dabbs/adventure crew, Sun Country Tours is the lead whitewater option, with Ouzel Outfitters as the alternate.</p>
-  <div class="option-grid">
-    <article class="option-card recommended"><h3>Recommended Main Group Plan: Float the Deschutes</h3><p><strong>Best for:</strong> relaxing, kids, grandparents, photos, and everyone moving at their own pace.</p><p><strong>Suggested slot:</strong> Monday late morning / early afternoon, after the group is settled and before the final checkout morning.</p><p><strong>Why it fits:</strong> lower cost, flexible timing, low stress, and very Sunriver.</p></article>
-    <article class="option-card"><h3>Lead Whitewater Option: Sun Country Tours — Big Eddy Thriller</h3><p><strong>Best for:</strong> a short, memorable adrenaline adventure without losing the whole day.</p><p><strong>Suggested slot:</strong> Saturday morning. Leave Sunriver around 8:15 AM, check in around 9:00 AM, raft mid-morning, then keep the afternoon flexible.</p><p><strong>Why it fits:</strong> close to Sunriver/Bend, family-friendly Class I–III excitement, and a manageable time commitment.</p></article>
-    <article class="option-card"><h3>Alternate Whitewater Option: Ouzel Outfitters</h3><p><strong>Best for:</strong> a group that wants a bigger outfitter-style rafting adventure or a longer river day.</p><p><strong>Tradeoff:</strong> likely more planning and commitment than the quick Big Eddy option.</p></article>
-  </div>
-</section>

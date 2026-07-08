@@ -1,15 +1,19 @@
 # The Sunriver Family Adventure
 
-A mobile-first GitHub Pages vacation site for Sunriver, Oregon — August 5–10, 2026.
+A premium, mobile-first GitHub Pages vacation site for Sunriver, Oregon — August 5–11, 2026.
 
 ## What is included
-- Sunriver-centered family itinerary.
-- 3 PM check-in and 10 AM checkout flow.
+- A redesigned Apple/Airbnb-style trip guide with the daily itinerary moved near the top.
+- Wednesday 3 PM check-in and Tuesday 10 AM checkout flow.
 - Adventure crew section for Grandma, Grandpa, Travis, Amy, Tyson, Kenna, Curtis, Cami, Paige, Brayden, Wyatt, Logan, and Josh.
-- Optional morning devotional assignments and nightly family prayer/reflection.
+- Host family assignments integrated into each daily itinerary card.
+- Meal responsibility listed as **TBD by host family** so each family can choose what they want to provide.
+- Simplified nightly prayer agenda and prayer rotation, including Dad for Tuesday.
 - Sunday church day with the High Desert Ward meetinghouse in Bend, Oregon.
+- River decision section: Deschutes float as the main family option, Sun Country Tours as the lead rafting option, and Ouzel Outfitters as the alternate.
+- Friday afternoon disc golf slot for the Dabbs.
 - Live links for weather, air quality, smoke, roads, stargazing, SHARC, maps, and activity pages.
-- Packing checklist saved locally on each device.
+- Packing checklist saved locally on each device with a completion meter.
 
 ## How to use
 1. Upload `index.html`, `styles.css`, and `script.js` to your GitHub repository.
@@ -21,16 +25,18 @@ A mobile-first GitHub Pages vacation site for Sunriver, Oregon — August 5–10
 - Change trip dates in `index.html` and the countdown target in `script.js`.
 - Replace photo URLs in each `<img src="...">` line with your own images from an `/images` folder.
 - Add your lodging address to map buttons if you want one-tap directions from the house.
-- Adjust devotional/prayer assignments in the `#worship` section of `index.html`.
+- Adjust prayer assignments in the `#reflection` section of `index.html`.
+- Adjust host family or meal notes inside each day card in the `#plan` section.
 
 ## Sunday church note
 The site uses the High Desert Ward page for current Sunday information. Re-check the week of the trip in case meeting times change.
 
-
-## v3 Updates
-- Josh is now his own household, not a special guest.
-- Checkout moved to Tuesday at approximately 10:00 AM.
-- Grandma & Grandpa host checkout-day breakfast.
-- Added Host Family of the Day: devotional assignment also owns one meal that day.
-- Added disc golf slot for the Dabbs on Friday afternoon.
-- Added river decision section: float as main family option, Sun Country Tours as lead rafting option, Ouzel Outfitters as alternate.
+## v4 Updates
+- Removed devotional/prayer optionality language.
+- Removed text saying Josh does not participate in spiritual elements.
+- Simplified the spiritual section to only the nightly prayer agenda and prayer rotation.
+- Added Dad as Tuesday prayer.
+- Moved the daily itinerary much higher on the page.
+- Removed the old separate “Latest Updates” and host meal table by integrating those details into the itinerary.
+- Updated all assigned meals to “TBD by host family.”
+- Fixed the river decision section so it lives inside the HTML document before the footer.
